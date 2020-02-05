@@ -3,7 +3,8 @@ def bubbleSort(nlist):
     # defining a range of numbers to pick from, in this case from the first one to the last one
     for passnum in range(len(nlist)-1,0,-1):
         for i in range(passnum):
-        # ompares 2 values that are right next to each other, if the one on the right is bigger keep it that way and move to the nex pair
+        # ompares 2 values that are right next to each other, if the one on the right is bigger keep it that way 
+        # and move to the next pair
         # if the nex pair is not like that however, swap them and then keep on checking
         # this is repeated until all the numbers are sorted
             if nlist[i]>nlist[i+1]:

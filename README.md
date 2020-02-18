@@ -3,3 +3,4 @@ This repository aims to help others with their coding interviews. If you know an
 
 ## Included languages (so far)
 * Python
+* C#
